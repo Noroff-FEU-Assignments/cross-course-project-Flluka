@@ -9,5 +9,38 @@ Secondary Buttons/hoober: 		#7A778C
 */
 
 
+body {
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #1d2540;
+    padding: 60px;
+}
 
 
+/* Navigation Bar */
+nav {
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 21px;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+
+}
+
+.logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
