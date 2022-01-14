@@ -32,6 +32,14 @@ p {
     display: inline;
 }
 
+h1 {
+    font-family: 'Aleo', serif;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
 /* Navigation Bar 
 ----------------------------------------------------------*/
 nav {
@@ -240,7 +248,9 @@ footer .container-social {
     flex-direction: row;
 }
 
-
-.footer-logo {
-    display: grid;
+footer p {
+    text-decoration: underline;
+    font-size: 21px;
+    font-family: 'Work Sans', sans-serif;
+    ;
 }
