@@ -8,85 +8,124 @@
   <link rel="stylesheet" href="/css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/33d8805278.js"></script>
   <title>Gamehub Homepage</title>
 </head>
 <body>
   <header>
     
-<nav>
-  <div id="logo"> 
-    <img src="/images/GameHub_Logo.png" alt="Gamehub logo"> 
+    <!-- Nav Bar Upper
+    ------------------------------------------------------->
+<nav class="upper-nav">
+  <div> 
+    <img src="/images/GameHub_Logo.png" class="logo" alt="Gamehub logo"> 
   </div> 
+  <div class="search-box">
+    <input type="text"  class="search-bar" placeholder="Search..">
+    <span class="fa fa-search"></span>
+    </div>
+    <ol>
+      <div class="icons">
+      <li><a href="#"><i class="fas fa-heart"></i>Wishlist</a></li>
+      <li><a href="#"><i class="fas fa-user-circle"></i>Account</a></li>
+      <li><a href="#"><i class="fas fa-shopping-cart"></i>Cart</a></li>
+    </div>
+    </ol>
 </nav>
+
+
+
 </header>
-<nav class="lower-nav">
-  <ul>
-    <li><a href="sell_your_games.html">Sell Your Games</a></li>
-    <li><a href="buy_old_games.html">Buy Old Games</a></li>
-    <li><a href="top_games.html">Top Games</a></li>
-    <li><a href="new_games.html">New Games</a></li>
-    <li><a href="coming_soon.html">Coming Soon</a></li>
-    <li><a href="all_games.html">All Games</a></li>
-  </ul>
-</nav>
 
 
   <main>
-
     <!-- Products -->
+    <section class="featured">
+    <!-- Ping Pong Game
+    ------------------------------------------------------->
     <div class="products">
-      <div class="product-card">
-        <div class="product-name">
-          <h5>Ping Pong (PlayBox)</h5>
-        </div>
-        <div class="product-image">
-          <img src="images/GameHub_covers.jpg" alt="Ping Pong Game">
-        </div>
-        <div class="product-price">
-          <h6>$59.99</h6>
-        </div>
-        <div class="buttonGroup">
-          <button class="buy">Pre Order</button>
-        </div>
-      </div>
+    <h3>Ping Pong (PlayBox)</h3>
+    <img src="images/GameHub_covers.jpg" class="product-img" alt="Ping Pong Game" />
+    <p class="product-detail">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p> <br>
+    <p>$59.99</p>
+    <a href="#" class="cta cta-small">Pre Order</a>
+  </div>
 
-      <div class="product-card">
-        <div class="product-name">
-          <h5>Ping Pong (PlayBox)</h5>
-        </div>
-        <div class="product-image">
-          <img src="images/GameHub_covers2.jpg" alt="Ping Pong Game">
-        </div>
-        <div class="product-price">
-          <h6>$59.99</h6>
-        </div>
-        <div class="buttonGroup">
-          <button class="buy">Pre Order</button>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <div class="product-name">
-          <h5>Ping Pong (PlayBox)</h5>
-        </div>
-        <div class="product-image">
-          <img src="images/GameHub_covers3.jpg" alt="Ping Pong Game">
-        </div>
-        <div class="product-price">
-          <h6>$59.99</h6>
-        </div>
-        <div class="buttonGroup">
-          <button class="buy">Pre Order</button>
-        </div>
-      </div>
+  <!-- Super Duper Game
+    ------------------------------------------------------->
+    <div class="products">
+      <h3>SuperDuper (PlayBox)</h3>
+      <img src="images/GameHub_covers2.jpg" class="product-img" alt="Super Duper Game" />
+      <p class="product-detail">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p> <br>
+      <p class="old-price">$59.99</p>
+      <p class="sale">$49.99</p>
+      <a href="#" class="cta cta-sale cta-small">Buy</a>
     </div>
 
+<!-- Black Game
+    ------------------------------------------------------->
+    <div class="products">
+      <h3>Black (PlayBox)</h3>
+      <img src="images/GameHub_covers3.jpg" class="product-img" alt="Black Game" />
+      <p class="product-detail">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p> <br>
+      <p>$59.99</p>
+      <a href="#" class="cta cta-small">Buy</a>
+    </div>
+
+    </section>
   </main>
 
 
 
+
+<!-- Footer
+    ------------------------------------------------------->
   <footer>
 
+    <!-- Social Media Section
+    ------------------------------------------------------->
+    <div class="container-footer">
+    <div class="social-media">
+    <h2>Social Media</h2>
+    </div>
+    <ul class="social-list">
+      <li><a href="#"><i class="fab fa-facebook"></i>Twitter</a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i>Facebook</a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+    </ul>
+    </div>
+
+     <!-- Information Section
+    ------------------------------------------------------->
+    <div class="container-footer">
+      <div class="information">
+      <h2>Information</h2>
+      </div>
+      <ul class="information-list">
+        <li><a href="#">Customer Reviews</a></li>
+        <li><a href="#">Brands/Publisher</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+      </div>
+
+       <!-- Support Section
+    ------------------------------------------------------->
+      <div class="container-footer">
+        <div class="support">
+        <h2>Support</h2>
+        </div>
+        <ul class="support-list">
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Returns & Warranty</a></li>
+        </ul>
+        </div>
+
+       <!-- Logo footer
+    ------------------------------------------------------->
+        <div class="footer-logo"> 
+          <img src="/images/GameHub_Logo.png" class="logo" alt="Gamehub logo"> 
+        </div> 
 
   </footer>
 
