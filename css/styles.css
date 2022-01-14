@@ -40,6 +40,11 @@ h1 {
     text-decoration: underline;
 }
 
+.signup-link {
+    text-align: center;
+    color: black;
+}
+
 /* Navigation Bar 
 ----------------------------------------------------------*/
 nav {
@@ -196,7 +201,7 @@ nav ul {
     color: #fff;
     font-size: 1em;
     text-transform: uppercase;
-    border-radius: 5px;
+    border-radius: 15px;
     text-decoration: none;
 }
 
