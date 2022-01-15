@@ -262,7 +262,7 @@ footer h2 {
 }
 
 .main__container {
-    margin-left: 10px;
+    margin-left: 15px;
     padding-top: 30px;
     padding-bottom: 30px;
     line-height: 30px;
@@ -281,4 +281,11 @@ footer h2 {
 .support {
     text-decoration: underline;
     font-size: 21px;
+}
+
+.copyright-bottom {
+    text-align: center;
+    background-color: #1D2540;
+    color: #FFF;
+    padding-top: 15px;
 }
