@@ -153,7 +153,7 @@ i {
     background: #FFF;
     text-align: center;
     padding: 10px 0px;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .lower-nav a {
