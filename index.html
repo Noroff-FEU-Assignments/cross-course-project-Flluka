@@ -13,12 +13,11 @@
 </head>
 <body>
   <header>
-    
-    <!-- Nav Bar Upper
+    <!-- NavBar Upper
     ------------------------------------------------------->
 <nav class="upper-nav">
   <div> 
-    <img src="/images/GameHub_Logo.png" class="logo" alt="Gamehub logo"> 
+    <a href="/index.html"> <img src="/images/GameHub_Logo.png" class="logo" alt="Gamehub logo"> </a>
   </div> 
   <div class="search-box">
     <input type="text"  class="search-bar" placeholder="Search..">
@@ -26,16 +25,24 @@
     </div>
     <ol>
       <div class="icons">
-      <li><a href="#"><i class="fas fa-heart"></i>Wishlist</a></li>
-      <li><a href="#"><i class="fas fa-user-circle"></i>Account</a></li>
-      <li><a href="#"><i class="fas fa-shopping-cart"></i>Cart</a></li>
+      <li><a href="/wishlist.html"><i class="fas fa-heart"></i>Wishlist</a></li>
+      <li><a href="/account.html"><i class="fas fa-user-circle"></i>Account</a></li>
+      <li><a href="/wishlist.html"><i class="fas fa-shopping-cart"></i>Cart</a></li>
     </div>
     </ol>
 </nav>
-
-
-
+</div>
 </header>
+<!-- Navbar Lower
+    ------------------------------------------------------->
+<div class="lower-nav">
+  <a href="/">Buy Old Games</a>
+  <a href="/">Sell Your Games</a>
+  <a href="/">Top Games</a>
+  <a href="/">New Games</a>
+  <a href="/">Coming Soon</a>
+  <a href="/">All Games</a>
+</div>
 
 
   <main>
@@ -50,9 +57,8 @@
     <div class="products">
     <h3>Ping Pong (PlayBox)</h3>
     <img src="images/GameHub_covers.jpg" class="product-img" alt="Ping Pong Game" />
-    <p class="product-detail">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p> <br>
     <p>$59.99</p>
-    <a href="#" class="cta cta-small">Pre Order</a>
+    <a href="#" class="cta pre-order">Pre Order</a>
   </div>
 
   <!-- Super Duper Game
@@ -60,8 +66,6 @@
     <div class="products">
       <h3>SuperDuper (PlayBox)</h3>
       <img src="images/GameHub_covers2.jpg" class="product-img" alt="Super Duper Game" />
-      <p class="product-detail">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p> <br>
-      <p class="old-price">$59.99</p>
       <p class="sale">$49.99</p>
       <a href="#" class="cta cta-sale cta-small">Buy</a>
     </div>
@@ -71,67 +75,48 @@
     <div class="products">
       <h3>Black (PlayBox)</h3>
       <img src="images/GameHub_covers3.jpg" class="product-img" alt="Black Game" />
-      <p class="product-detail">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p> <br>
       <p>$59.99</p>
       <a href="#" class="cta cta-small">Buy</a>
     </div>
-
     </section>
   </main>
-
-
-
-
 <!-- Footer
     ------------------------------------------------------->
-  <footer>
-
-    <!-- Social Media Section
-    ------------------------------------------------------->
-    <div class="container-footer">
-    <div class="social-media">
-    <p>Social Media</p>
-    </div>
-    <ul class="social-list">
-      <li><a href="#"><i class="fab fa-facebook"></i>Twitter</a></li>
-      <li><a href="#"><i class="fab fa-twitter"></i>Facebook</a></li>
-      <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
-    </ul>
-    </div>
-
-     <!-- Information Section
-    ------------------------------------------------------->
-    <div class="container-footer">
-      <div class="information">
-      <p>Information</p>
-      </div>
-      <ul class="information-list">
-        <li><a href="#">Customer Reviews</a></li>
-        <li><a href="#">Brands/Publisher</a></li>
-        <li><a href="#">Blog</a></li>
-      </ul>
-      </div>
-
-       <!-- Support Section
-    ------------------------------------------------------->
-      <div class="container-footer">
-        <div class="support">
-        <p>Support</p>
-        </div>
-        <ul class="support-list">
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Returns & Warranty</a></li>
+    <footer>
+      <div class="main-footer">
+      <section class="main__container">
+        <article class="main__container-list">
+          <p class="social">Social Media</p>
+        <ul>
+          <li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
+          <li><a href="#"><i class="fab fa-facebook"></i>Facebook</a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
         </ul>
-        </div>
+        </article>
+        </section>
+        <section class="main__container">
+        <article class="main__container-list">
+          <p class="information">Information</p>
+          <ul>
+          <li><a href="#">Customer Reviews</a></li>
+          <li><a href="#">Brands/Publisher</a></li>
+          <li><a href="#">Blog</a></li>
+          </ul>
+        </article>
+      </section>
+        <section class="main__container">
+          <article class="main__container-list">
+            <p class="support">Support</p>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Returns & Warranty</a></li>
+          </ul>
+        </article>
+      </section>
+       
 
-       <!-- Logo footer
-    ------------------------------------------------------->
-        <div class="footer-logo"> 
-          <img src="/images/GameHub_Logo.png" class="logo-foot" alt="Gamehub logo"> 
-        </div> 
-
-  </footer>
-
+        </footer>
+  
 </body>
 </html>

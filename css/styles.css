@@ -22,7 +22,7 @@ body {
 header {
     background-color: #1d2540;
     padding: 60px;
-    width: 1920px;
+    width: auto;
     height: 180px;
 }
 
@@ -38,6 +38,15 @@ h1 {
     text-align: center;
     margin-top: 50px;
     text-decoration: underline;
+}
+
+footer a,
+footer a:visited,
+footer a:hover,
+footer a:active {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
 }
 
 .signup-link {
@@ -57,10 +66,7 @@ nav {
     padding: 15px 30px;
     padding-top: 70px;
     transform: translateY(-50%);
-
-
 }
-
 
 nav .logo {
     cursor: pointer;
@@ -129,7 +135,6 @@ nav ul {
 
 .icons li {
     display: inline-block;
-    padding: 20px 35px;
     font-size: 19px;
     font-family: 'Work Sans', sans-serif;
     text-align: center;
@@ -139,6 +144,26 @@ nav ul {
     padding-top: 6px;
 }
 
+i {
+    margin-right: 10px;
+}
+
+.lower-nav {
+    display: block;
+    background: #FFF;
+    text-align: center;
+    padding: 10px 0px;
+    border-style: solid;
+    border-color: black;
+}
+
+.lower-nav a {
+    display: inline-block;
+    margin: 0px 45px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+}
 
 
 /* Products 
@@ -161,24 +186,28 @@ nav ul {
     padding-right: 30px;
     padding-bottom: 20px;
     padding-top: 20px;
-    margin-top: 5px;
+    margin: auto;
+    border-color: black;
+    border-style: solid;
 }
 
 .products h3 {
     grid-column: 1;
-    font-size: 0.9em;
-    margin: 5px;
+    font-size: 1em;
+    margin-bottom: 10px;
+
 }
 
 .products img {
     grid-column: -1/1;
-    width: 236px;
 }
 
 .featured-products {
     background-color: #fbfbfb;
 }
 
+/* Products Sale 
+-----------------------------------------------*/
 .old-price {
     text-decoration: line-through;
 }
@@ -189,20 +218,16 @@ nav ul {
 
 }
 
-
-/* Products Sale 
------------------------------------------------*/
-
-
 /* Product cta
 -----------------------------------------------*/
 .cta {
-    background-color: #7A778C;
+    background-color: #1D2540;
     color: #fff;
     font-size: 1em;
     text-transform: uppercase;
     border-radius: 15px;
     text-decoration: none;
+    margin-top: 10px;
 }
 
 .cta-large {
@@ -211,51 +236,49 @@ nav ul {
 
 .cta-small {
     padding: 8px 30px;
-    font-size: 0.8em;
     grid-column: 2;
     min-width: 50px;
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
+.pre-order {
+    padding: 8px 15px;
+}
 
 /* Footer
 -----------------------------------------------*/
 footer {
-    background-color: #1d2540;
-    color: #fff;
-    width: 100%;
-    height: auto;
-    position: relative;
-    padding-right: 1000px;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    padding-left: 50px;
+    padding-top: 250px;
+}
+
+footer h2 {
+    text-decoration: underline;
+}
+
+.main-footer {
+    background-color: #1D2540;
+    color: #ffffff;
+    padding-left: 15%;
+}
+
+.main__container {
+    margin-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 30px;
+
+}
+
+.main-footer,
+.main__container {
     display: grid;
-    justify-content: space-between;
     grid-template-columns: repeat(3, auto);
-
-
+    grid-gap: 100px;
 }
 
-footer .container-social {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-footer p {
+.information,
+.social,
+.support {
     text-decoration: underline;
     font-size: 21px;
-    font-family: 'Work Sans', sans-serif;
-    ;
 }
