@@ -287,3 +287,49 @@ footer h2 {
     color: #FFF;
     padding-top: 15px;
 }
+
+
+/* Media Queries
+-----------------------------------------------*/
+
+@media (max-width: 400px) {
+    .product-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .featured {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .featured {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .main-footer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 800px) {
+    .featured {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main-footer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+@media (min-width: 1000px) {
+    .featured {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .main-footer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
