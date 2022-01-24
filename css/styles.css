@@ -150,28 +150,10 @@ input[type="checkbox"] {
   display: none;
 }
 
-.link {
-  padding-top: 6px;
-}
-
 i {
   margin-right: 10px;
 }
 
-#hamburger-menu {
-  display: none;
-}
-
-label {
-  padding-left: 15px;
-  font-size: 24px;
-}
-
-#hamburger-menu:checked ~ .lower-nav {
-  display: grid;
-  text-align: left;
-  border: none;
-}
 /* Products 
 -----------------------------------------------*/
 
@@ -248,6 +230,10 @@ label {
   padding: 8px 15px;
 }
 
+.products a:hover {
+  background-color: #7a778c;
+}
+
 /* Footer
 -----------------------------------------------*/
 footer {
@@ -294,4 +280,30 @@ footer h2 {
   background-color: #1d2540;
   color: #fff;
   padding-top: 15px;
+}
+
+.main__container a {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  position: relative;
+}
+
+.main__container a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+a:hover:after {
+  width: 100%;
+  left: 0;
 }
