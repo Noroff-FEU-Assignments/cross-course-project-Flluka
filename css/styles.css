@@ -29,6 +29,7 @@ h1 {
   margin-top: 50px;
   text-decoration: underline;
 }
+
 footer a,
 footer a:visited,
 footer a:hover,
@@ -40,6 +41,10 @@ footer a:active {
 .signup-link {
   text-align: center;
   color: black;
+}
+
+a {
+  color: inherit;
 }
 
 /* Navigation Bar 
@@ -306,4 +311,70 @@ footer h2 {
 a:hover:after {
   width: 100%;
   left: 0;
+}
+
+/* Account Page 
+-----------------------------------------------*/
+.profile {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.myorders,
+.myprofile {
+  background-color: #fff;
+  width: 700px;
+  height: 375px;
+  border: 1px solid black;
+  margin: 60px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.myorders h2 {
+  font-family: "Aleo", serif;
+  margin: 10px;
+}
+
+.myorders p {
+  margin: 10px;
+}
+
+.myorders ul {
+  margin: 10px;
+  list-style: none;
+  text-decoration: none;
+  padding-top: 100px;
+  line-height: 50px;
+  color: blue;
+}
+
+.myprofile h2 {
+  font-family: "Aleo", serif;
+  margin: 10px;
+}
+
+.myprofile p {
+  margin: 10px;
+}
+
+.myprofile ul {
+  margin: 10px;
+  list-style: none;
+  padding-top: 100px;
+  line-height: 50px;
+  color: blue;
+}
+
+.myprofile i {
+  font-size: 50px;
+  position: absolute;
+  right: 70px;
+  padding-top: 250px;
+}
+
+.myorders i {
+  font-size: 50px;
+  position: absolute;
+  left: 700px;
+  padding-top: 250px;
 }
