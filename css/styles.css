@@ -335,11 +335,11 @@ a:hover:after {
   margin: 10px;
 }
 
-.myorders p {
+.profile p {
   margin: 10px;
 }
 
-.myorders ul {
+.myorders ol {
   margin: 10px;
   list-style: none;
   text-decoration: none;
@@ -353,11 +353,7 @@ a:hover:after {
   margin: 10px;
 }
 
-.myprofile p {
-  margin: 10px;
-}
-
-.myprofile ul {
+.myprofile ol {
   margin: 10px;
   list-style: none;
   padding-top: 100px;
@@ -377,4 +373,73 @@ a:hover:after {
   position: absolute;
   left: 700px;
   padding-top: 250px;
+}
+
+/* Customer Support 
+-----------------------------------------------*/
+.support {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  text-decoration: none;
+}
+
+.chat,
+.phone,
+.email {
+  background-color: #fff;
+  width: 430px;
+  height: 520px;
+  border: 1px solid black;
+  margin: 60px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.support h2 {
+  font-family: "Aleo", serif;
+  margin: 10px;
+}
+
+.support p {
+  margin: 10px;
+  line-height: 50px;
+  text-decoration: underline;
+}
+
+.chat,
+.phone,
+.email {
+  font-family: "Work Sans", sans-serif;
+}
+
+.support ol {
+  margin: 10px;
+  list-style: none;
+  line-height: 50px;
+}
+
+.cta-icon {
+  font-size: 90px;
+  color: #1d2540;
+  text-align: center;
+}
+
+.cta-support {
+  background-color: #1d2540;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 15px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.cta-small-support {
+  padding: 8px 30px;
+  grid-column: 2;
+  min-width: 50px;
+}
+
+.support-button {
+  text-align: center;
+  padding-top: 40px;
 }
