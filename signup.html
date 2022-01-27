@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Get the newest games, sell your games and buy new and old games" />
+    <meta name="description" content="Sign up to gamehub to get up to date news and great deals. Manage your profile, sell your games and join the club." />
     <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/33d8805278.js"></script>
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/media.css" />
-    <title>Gamehub Homepage</title>
+    <title>Gamehub Sign Up</title>
   </head>
   <body>
     <header>
@@ -32,7 +32,7 @@
             <a href="/allgames.html"> <i class="fas fa-gamepad"></i>All Games</a>
           </li>
           <li>
-            <a href="/usedgames.html"> <i class="fas fa-store"></i>Used Games</a>
+            <a href="#"> <i class="fas fa-store"></i>Market</a>
           </li>
           <li>
             <a href="/cart.html"> <i class="fas fa-shopping-cart"></i>Cart</a>
@@ -50,32 +50,41 @@
         </label>
       </nav>
     </header>
-
     <main>
-      <h1>My Account</h1>
+      <div class="signupForm">
+        <form action="" class="form">
+          <h1 class="title">Sign up</h1>
+          <div class="inputContainer">
+            <input type="email" class="input" placeholder="a" />
+            <label for="" class="label">Email</label>
+          </div>
 
-      <section class="profile">
-        <div class="myorders">
-          <h2>My Orders</h2>
-          <p>Manage your orders</p>
-          <ol>
-            <li><a href="#">Order Overview</a></li>
-            <li><a href="#">Returns</a></li>
-            <li><a href="#">Sold Games</a></li>
-          </ol>
-        </div>
-        <div class="myprofile">
-          <h2>My Profile</h2>
-          <p>Manage your profile</p>
-          <ol>
-            <li><a href="#">Edit Profile</a></li>
-            <li><a href="#">Sell Games</a></li>
-            <li><a href="#">Gamehub Club</a></li>
-          </ol>
-        </div>
-      </section>
+          <div class="inputContainer">
+            <input type="text" class="input" placeholder="a" />
+            <label for="" class="label">First Name</label>
+          </div>
+
+          <div class="inputContainer">
+            <input type="text" class="input" placeholder="a" />
+            <label for="" class="label">Last name</label>
+          </div>
+
+          <div class="inputContainer">
+            <input type="password" class="input" placeholder="a" />
+            <label for="" class="label">Password</label>
+          </div>
+
+          <div class="inputContainer">
+            <input type="password" class="input" placeholder="a" />
+            <label for="" class="label">Confirm Password</label>
+          </div>
+          <a href="/signsuccess.html" class="submitButton">Sign up</a>
+        </form>
+      </div>
     </main>
 
+    <!-- Footer
+    ------------------------------------------------------->
     <footer>
       <div class="main-footer">
         <section class="main__container">

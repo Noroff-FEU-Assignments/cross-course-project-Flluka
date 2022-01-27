@@ -120,14 +120,46 @@
   .support-button {
     padding-top: 10px;
   }
+
+  .signsuccess {
+    width: auto;
+  }
+
+  .sign-button {
+    font-size: 7px;
+  }
+
+  .sign-button,
+  .cta {
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+
+  .signinform {
+    display: grid;
+    width: auto;
+  }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 800px) {
   .support-button {
     padding-top: 5px;
   }
 
   .cta-icon {
     font-size: 50px;
+  }
+
+  .sign-button {
+    font-size: 5px;
+  }
+
+  .submitButton {
+    width: 150px;
+    margin-left: 60px;
+  }
+
+  .form {
+    width: 350px;
   }
 }

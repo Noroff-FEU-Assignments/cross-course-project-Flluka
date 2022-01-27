@@ -180,7 +180,7 @@ i {
   padding-bottom: 20px;
   padding-top: 20px;
   margin: auto;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
 }
 
 .products h3 {
@@ -327,7 +327,7 @@ a:hover:after {
   height: 375px;
   border: 1px solid black;
   margin: 60px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
 }
 
 .myorders h2 {
@@ -361,20 +361,6 @@ a:hover:after {
   color: blue;
 }
 
-.myprofile i {
-  font-size: 50px;
-  position: absolute;
-  right: 70px;
-  padding-top: 250px;
-}
-
-.myorders i {
-  font-size: 50px;
-  position: absolute;
-  left: 700px;
-  padding-top: 250px;
-}
-
 /* Customer Support 
 -----------------------------------------------*/
 .support {
@@ -389,9 +375,8 @@ a:hover:after {
   background-color: #fff;
   width: 430px;
   height: 520px;
-  border: 1px solid black;
   margin: 60px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
 }
 
 .support h2 {
@@ -442,4 +427,162 @@ a:hover:after {
 .support-button {
   text-align: center;
   padding-top: 40px;
+}
+
+/* Sign Up/Sign In 
+This is a sign up/sign in form i made is a placeholder because i cant make what i want without javascript.
+-----------------------------------------------*/
+
+.signupForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.signinForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.form {
+  background-color: white;
+  width: 800px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+  border: 1px solid black;
+}
+
+.title {
+  font-size: 45px;
+  margin-bottom: 40px;
+  font-family: "Aleo", serif;
+}
+
+.inputContainer {
+  position: relative;
+  height: 45px;
+  width: 90%;
+  margin-bottom: 17px;
+  margin-left: 30px;
+}
+
+.input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #000000;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 0 20px;
+  outline: none;
+  background: none;
+  z-index: 1;
+}
+
+::placeholder {
+  color: transparent;
+}
+
+.label {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 0 4px;
+  background-color: white;
+  color: #dadce0;
+  font-size: 16px;
+  transition: 0.5s;
+  z-index: 0;
+}
+
+.submitButton {
+  display: block;
+  margin-left: 15%;
+  padding: 15px 30px;
+  border: none;
+  background-color: #1d2540;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 500px;
+}
+
+.submitButton:hover {
+  background-color: #7a778c;
+  transform: translateY(-2px);
+}
+
+.input:focus + .label {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1d2540;
+}
+
+.input:not(:placeholder-shown) + .label {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.signup-question {
+  padding-top: 10px;
+  font-size: 13px;
+  text-align: center;
+}
+
+/* Sign Up Success 
+-----------------------------------------------*/
+.signsuccess {
+  display: grid;
+  text-align: center;
+  width: 700px;
+  height: 500px;
+  background-color: white;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+  margin: auto;
+  margin-top: 80px;
+}
+
+.signsuccess i {
+  font-size: 15vh;
+  color: green;
+}
+
+.signsuccess a {
+  padding: 8px 30px;
+  min-width: 50px;
+}
+
+.sign-button {
+  display: inline-block;
+  text-align: center;
+}
+
+.sign-button .cta {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.resend-email {
+  padding-bottom: 5vh;
+  font-size: 13px;
+}
+
+.sign-button a:hover {
+  background-color: #7a778c;
 }
