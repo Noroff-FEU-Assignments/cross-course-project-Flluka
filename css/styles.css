@@ -586,3 +586,132 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
 .sign-button a:hover {
   background-color: #7a778c;
 }
+
+/* Product Page  
+-----------------------------------------------*/
+
+.product-box {
+  color: black;
+  background: #fff;
+  width: 1000px;
+  height: 600px;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.information-box {
+  color: black;
+  background: #fff;
+  width: 900px;
+  height: 1200px;
+  margin: auto;
+  margin-top: 100px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+}
+
+.tabs {
+  width: 900px;
+  height: 50px;
+  background: #1d2540;
+  margin: auto;
+}
+
+/* Unable to switch pages without javascript so i put hover as example until i learn javascript */
+.tabs a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.info-button {
+  background-color: #1d2540;
+  color: #fff;
+  height: 50px;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 20px 20px;
+}
+
+.tabs a:hover {
+  background-color: #7a778c;
+}
+.information {
+  font-family: "Work Sans", sans-serif;
+  text-decoration: none;
+  margin: 20px 20px;
+}
+
+.information p {
+  font-size: 15px;
+  width: 10%;
+}
+
+.information h3 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.iframe-container {
+  position: relative;
+  width: auto;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.product-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.name-container {
+  font-family: "Aleo", serif;
+  margin: 20px 0px 0px 50px;
+}
+
+.buy-container {
+  background-color: #1d2540;
+  color: #fff;
+  width: 350px;
+  height: 150px;
+  margin-left: 55%;
+  margin-top: 20%;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+  border-radius: 15px;
+}
+
+.buy-container i {
+  color: green;
+}
+
+.price-buy {
+  padding: 7% 0% 10px 8%;
+}
+.storage {
+  padding: 10px 0% 0% 8%;
+}
+
+.cta-buy-page {
+  background-color: #fff;
+  color: black;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 15px;
+  text-decoration: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.cta-buy-small {
+  padding: 8px 25% 8px 25%;
+  display: inline-block;
+  margin: 0% 8%;
+}
