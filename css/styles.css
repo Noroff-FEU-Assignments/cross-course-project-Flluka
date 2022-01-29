@@ -592,10 +592,8 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
 
 .product-box {
   color: black;
-  background: #fff;
   width: 1000px;
   height: 600px;
-  border: 2px solid black;
   margin: auto;
   margin-top: 100px;
 }
@@ -606,7 +604,7 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
   width: 900px;
   height: 1200px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 50px;
   box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
 }
 
@@ -674,7 +672,7 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
 
 .name-container {
   font-family: "Aleo", serif;
-  margin: 20px 0px 0px 50px;
+  margin: 20px 0px 0px 16%;
 }
 
 .buy-container {
@@ -682,8 +680,8 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
   color: #fff;
   width: 350px;
   height: 150px;
-  margin-left: 55%;
   margin-top: 20%;
+  margin-left: 78%;
   box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
   border-radius: 15px;
 }
@@ -692,11 +690,16 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
   color: green;
 }
 
+.storage {
+  font-size: 12px;
+}
+
 .price-buy {
-  padding: 7% 0% 10px 8%;
+  padding: 7% 0% 10px 19%;
+  margin-top: 7px;
 }
 .storage {
-  padding: 10px 0% 0% 8%;
+  padding: 10px 0% 0% 19%;
 }
 
 .cta-buy-page {
@@ -713,5 +716,137 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
 .cta-buy-small {
   padding: 8px 25% 8px 25%;
   display: inline-block;
-  margin: 0% 8%;
+  margin: 0% 19%;
+}
+
+.buy-container a:hover {
+  background-color: #7a778c;
+  color: #fff;
+}
+
+.shipping-box {
+  width: auto;
+  height: 40px;
+  background-color: #1d2540;
+  color: #fff;
+  padding-top: 10px;
+  padding-left: 9px;
+}
+
+.shipping-box i {
+  color: #fff;
+}
+
+.shipping-container {
+  background-color: #fff;
+  color: black;
+  width: auto;
+  height: 130px;
+  margin-top: 30%;
+  border: 2px solid black;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+}
+
+.radio-buttons {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/* Market Page  
+-----------------------------------------------*/
+
+.market {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.sell-games {
+  background-color: #fff;
+  width: 700px;
+  height: 375;
+  border: 1px solid black;
+  margin-left: 16%;
+  margin-top: 58px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+}
+
+.sold-games {
+  background-color: #fff;
+  width: 400px;
+  height: auto;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+  margin-top: 59px;
+  margin-right: 200px;
+  padding-bottom: 20px;
+}
+
+.select-box {
+  width: 450px;
+  height: 35px;
+  border: 1px solid black;
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-left: 12px;
+}
+
+.select-box-2 {
+  width: 450px;
+  height: 35px;
+  border: 1px solid black;
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-left: 12px;
+}
+
+.sell-games h4 {
+  font-family: "Aleo", serif;
+  margin: 10px;
+}
+
+.sell-game p {
+  margin: 10px;
+}
+
+.sold-games h2 {
+  font-family: "Aleo", serif;
+  margin: 10px;
+}
+
+.sold-games img {
+  width: 110px;
+  height: 142px;
+}
+
+.game-sold {
+  margin-left: 15px;
+}
+
+.sold-games hr {
+  width: 320px;
+  margin: 10px 40px 10px 40px;
+}
+
+.cta-sell {
+  background-color: #1d2540;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 15px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.cta-small-sell {
+  padding: 8px 30px;
+  grid-column: 2;
+  min-width: 50px;
+}
+
+.support-sell a:hover {
+  background-color: #7a778c;
+}
+
+.support-sell {
+  text-align: center;
+  padding-top: 25%;
 }

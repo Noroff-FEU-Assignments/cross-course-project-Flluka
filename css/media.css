@@ -162,4 +162,13 @@
   .form {
     width: 350px;
   }
+
+  .information-box {
+    width: auto;
+    height: auto;
+  }
+
+  .tabs {
+    width: auto;
+  }
 }
