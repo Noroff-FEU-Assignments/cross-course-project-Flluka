@@ -150,6 +150,15 @@
   .product-details img {
     margin: auto;
   }
+  .product-box,
+  .buy-box {
+    width: auto;
+    margin: auto;
+  }
+  .information-box {
+    width: auto;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -172,15 +181,6 @@
 
   .form {
     width: 350px;
-  }
-
-  .information-box {
-    width: auto;
-    height: auto;
-  }
-
-  .tabs {
-    width: auto;
   }
 
   .cart-info p {
@@ -209,7 +209,6 @@
   .market {
     grid-template-columns: repeat(1, 1fr);
   }
-
   .select-box {
     width: auto;
     margin: auto;
@@ -226,5 +225,26 @@
 
   .cart-bar {
     display: none;
+  }
+
+  .product-page {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .product-box {
+    width: auto;
+    margin: auto;
+    margin-left: 0px;
+  }
+
+  .buy-box {
+    width: auto;
+    margin: auto;
+    margin-left: 0px;
+  }
+
+  .information-box {
+    width: auto;
+    margin: auto;
   }
 }
