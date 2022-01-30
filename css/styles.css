@@ -179,6 +179,7 @@ i {
   text-decoration: line-through;
 }
 .sale {
+  font-size: 18px;
   color: red;
   display: grid;
 }
@@ -235,9 +236,9 @@ footer h2 {
   display: grid;
   grid-template-columns: repeat(3, auto);
 }
-.information,
+.information-support,
 .social,
-.support {
+.support-footer {
   text-decoration: underline;
   font-size: 21px;
 }
