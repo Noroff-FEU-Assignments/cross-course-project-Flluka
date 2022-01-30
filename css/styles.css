@@ -42,11 +42,9 @@ footer a:active {
   text-align: center;
   color: black;
 }
-
 a {
   color: inherit;
 }
-
 /* Navigation Bar 
 ----------------------------------------------------------*/
 nav {
@@ -58,24 +56,20 @@ nav {
   text-align: center;
   padding: 15px 30px;
 }
-
 nav .icon {
   font-size: 35px;
   font-weight: 800;
   color: #fff;
   cursor: pointer;
 }
-
 nav ol {
   display: flex;
   list-style: none;
   margin: auto 0;
 }
-
 nav ol li {
   margin: 0 2px;
 }
-
 nav ol li a {
   color: #fff;
   font-size: 20px;
@@ -84,19 +78,16 @@ nav ol li a {
   letter-spacing: 1px;
   padding: 5px 10px;
 }
-
 nav ol li:hover a {
   background: #fff;
   color: #1d2540;
 }
-
 nav .search_box {
   display: flex;
   margin: auto 0;
   height: 35px;
   line-height: 35px;
 }
-
 nav .search_box input {
   border: none;
   outline: none;
@@ -106,7 +97,6 @@ nav .search_box input {
   font-size: 20px;
   width: 350px;
 }
-
 nav .search_box span {
   color: #1d2540;
   font-size: 20px;
@@ -117,11 +107,9 @@ nav .search_box span {
   cursor: pointer;
   z-index: 1;
 }
-
 nav .search_box span:hover {
   color: #fff;
 }
-
 nav .search_box span::after {
   height: 100%;
   width: 0%;
@@ -133,35 +121,28 @@ nav .search_box span::after {
   z-index: -1;
   transition: 0.3s;
 }
-
 nav .search_box span:hover::after {
   width: 100%;
 }
-
 nav .bar {
   position: relative;
   margin: auto;
   display: none;
 }
-
 nav .bar span {
   position: absolute;
   color: #fff;
   font-size: 35px;
 }
-
 input[type="checkbox"] {
   -webkit-appearance: none;
   display: none;
 }
-
 i {
   margin-right: 10px;
 }
-
 /* Products 
 -----------------------------------------------*/
-
 .games {
   display: grid;
   max-width: 1300px;
@@ -169,7 +150,6 @@ i {
   grid-gap: 70px;
   grid-template-columns: repeat(3, auto);
 }
-
 .products {
   background-color: #fbfbfb;
   display: grid;
@@ -182,32 +162,26 @@ i {
   margin: auto;
   box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
 }
-
 .products h3 {
   grid-column: 1;
   font-size: 1em;
   margin-bottom: 10px;
 }
-
 .products img {
   grid-column: -1/1;
 }
-
 .featured-products {
   background-color: #fbfbfb;
 }
-
 /* Products Sale 
 -----------------------------------------------*/
 .old-price {
   text-decoration: line-through;
 }
-
 .sale {
   color: red;
   display: grid;
 }
-
 /* Product cta
 -----------------------------------------------*/
 .cta {
@@ -219,74 +193,60 @@ i {
   text-decoration: none;
   margin-top: 10px;
 }
-
 .cta-large {
   padding: 10px 40px;
 }
-
 .cta-small {
   padding: 8px 30px;
   grid-column: 2;
   min-width: 50px;
   text-align: center;
 }
-
 .pre-order {
   padding: 8px 15px;
 }
-
 .products a:hover {
   background-color: #7a778c;
 }
-
 /* Footer
 -----------------------------------------------*/
 footer {
   padding-top: 250px;
 }
-
 footer h2 {
   text-decoration: underline;
 }
-
 .main-footer {
   background-color: #1d2540;
   color: #ffffff;
   padding-left: 15%;
 }
-
 .main__container {
   margin-left: 15px;
   padding-top: 30px;
   padding-bottom: 30px;
   line-height: 30px;
 }
-
 .main-footer li {
   list-style: none;
 }
-
 .main-footer,
 .main__container {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  grid-gap: 100px;
 }
-
 .information,
 .social,
 .support {
   text-decoration: underline;
   font-size: 21px;
 }
-
 .copyright-bottom {
   text-align: center;
   background-color: #1d2540;
   color: #fff;
   padding-top: 15px;
 }
-
 .main__container a {
   color: #fff;
   text-decoration: none;
@@ -294,7 +254,6 @@ footer h2 {
   display: inline-block;
   position: relative;
 }
-
 .main__container a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
@@ -307,19 +266,16 @@ footer h2 {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-
 a:hover:after {
   width: 100%;
   left: 0;
 }
-
 /* Account Page 
 -----------------------------------------------*/
 .profile {
   display: grid;
   grid-template-columns: 1fr auto;
 }
-
 .myorders,
 .myprofile {
   background-color: #fff;
@@ -329,16 +285,13 @@ a:hover:after {
   margin: 60px;
   box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
 }
-
 .myorders h2 {
   font-family: "Aleo", serif;
   margin: 10px;
 }
-
 .profile p {
   margin: 10px;
 }
-
 .myorders ol {
   margin: 10px;
   list-style: none;
@@ -347,7 +300,6 @@ a:hover:after {
   line-height: 50px;
   color: blue;
 }
-
 .myprofile h2 {
   font-family: "Aleo", serif;
   margin: 10px;
@@ -360,7 +312,6 @@ a:hover:after {
   line-height: 50px;
   color: blue;
 }
-
 /* Customer Support 
 -----------------------------------------------*/
 .support {
@@ -368,7 +319,6 @@ a:hover:after {
   grid-template-columns: repeat(3, auto);
   text-decoration: none;
 }
-
 .chat,
 .phone,
 .email {
@@ -378,7 +328,6 @@ a:hover:after {
   margin: 60px;
   box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
 }
-
 .support h2 {
   font-family: "Aleo", serif;
   margin: 10px;
@@ -389,25 +338,21 @@ a:hover:after {
   line-height: 50px;
   text-decoration: underline;
 }
-
 .chat,
 .phone,
 .email {
   font-family: "Work Sans", sans-serif;
 }
-
 .support ol {
   margin: 10px;
   list-style: none;
   line-height: 50px;
 }
-
 .cta-icon {
   font-size: 90px;
   color: #1d2540;
   text-align: center;
 }
-
 .cta-support {
   background-color: #1d2540;
   color: #fff;
@@ -417,36 +362,30 @@ a:hover:after {
   text-decoration: none;
   margin-top: 10px;
 }
-
 .cta-small-support {
   padding: 8px 30px;
   grid-column: 2;
   min-width: 50px;
 }
-
 .support-button {
   text-align: center;
   padding-top: 40px;
 }
-
 /* Sign Up/Sign In 
 This is a sign up/sign in form i made is a placeholder because i cant make what i want without javascript.
 -----------------------------------------------*/
-
 .signupForm {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 70vh;
 }
-
 .signinForm {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 60vh;
 }
-
 .form {
   background-color: white;
   width: 800px;
@@ -454,13 +393,11 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
   box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
   border: 1px solid black;
 }
-
 .title {
   font-size: 45px;
   margin-bottom: 40px;
   font-family: "Aleo", serif;
 }
-
 .inputContainer {
   position: relative;
   height: 45px;
@@ -468,7 +405,6 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
   margin-bottom: 17px;
   margin-left: 30px;
 }
-
 .input {
   position: absolute;
   top: 0px;
@@ -483,11 +419,9 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
   background: none;
   z-index: 1;
 }
-
 ::placeholder {
   color: transparent;
 }
-
 .label {
   position: absolute;
   top: 15px;
@@ -499,7 +433,6 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
   transition: 0.5s;
   z-index: 0;
 }
-
 .submitButton {
   display: block;
   margin-left: 15%;
@@ -515,12 +448,10 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
   text-decoration: none;
   width: 500px;
 }
-
 .submitButton:hover {
   background-color: #7a778c;
   transform: translateY(-2px);
 }
-
 .input:focus + .label {
   top: -7px;
   left: 3px;
@@ -529,7 +460,6 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
   font-weight: 600;
   color: #1d2540;
 }
-
 .input:not(:placeholder-shown) + .label {
   top: -7px;
   left: 3px;
@@ -537,13 +467,11 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
   font-size: 14px;
   font-weight: 600;
 }
-
 .signup-question {
   padding-top: 10px;
   font-size: 13px;
   text-align: center;
 }
-
 /* Sign Up Success 
 -----------------------------------------------*/
 .signsuccess {
@@ -557,39 +485,31 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
   margin: auto;
   margin-top: 80px;
 }
-
 .signsuccess i {
   font-size: 15vh;
   color: green;
 }
-
 .signsuccess a {
   padding: 8px 30px;
   min-width: 50px;
 }
-
 .sign-button {
   display: inline-block;
   text-align: center;
 }
-
 .sign-button .cta {
   margin-right: 40px;
   margin-left: 40px;
 }
-
 .resend-email {
   padding-bottom: 5vh;
   font-size: 13px;
 }
-
 .sign-button a:hover {
   background-color: #7a778c;
 }
-
 /* Product Page  
 -----------------------------------------------*/
-
 .product-box {
   color: black;
   width: 1000px;
@@ -597,7 +517,6 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
   margin: auto;
   margin-top: 100px;
 }
-
 .information-box {
   color: black;
   background: #fff;
@@ -607,20 +526,17 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
   margin-top: 50px;
   box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
 }
-
 .tabs {
   width: 900px;
   height: 50px;
   background: #1d2540;
   margin: auto;
 }
-
 /* Unable to switch pages without javascript so i put hover as example until i learn javascript */
 .tabs a {
   color: #fff;
   text-decoration: none;
 }
-
 .info-button {
   background-color: #1d2540;
   color: #fff;
@@ -631,26 +547,21 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
   display: inline-block;
   padding: 15px 20px 20px;
 }
-
 .tabs a:hover {
   background-color: #7a778c;
 }
 .information {
   font-family: "Work Sans", sans-serif;
   text-decoration: none;
-  margin: 20px 20px;
 }
-
 .information p {
   font-size: 15px;
   width: 10%;
 }
-
 .information h3 {
   font-size: 20px;
   text-decoration: underline;
 }
-
 .iframe-container {
   position: relative;
   width: auto;
@@ -664,17 +575,14 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
   width: 100%;
   height: 100%;
 }
-
 .product-box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-
 .name-container {
   font-family: "Aleo", serif;
   margin: 20px 0px 0px 16%;
 }
-
 .buy-container {
   background-color: #1d2540;
   color: #fff;
@@ -685,15 +593,12 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
   box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
   border-radius: 15px;
 }
-
 .buy-container i {
   color: green;
 }
-
 .storage {
   font-size: 12px;
 }
-
 .price-buy {
   padding: 7% 0% 10px 19%;
   margin-top: 7px;
@@ -701,7 +606,6 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
 .storage {
   padding: 10px 0% 0% 19%;
 }
-
 .cta-buy-page {
   background-color: #fff;
   color: black;
@@ -712,18 +616,15 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
   margin-top: 10px;
   cursor: pointer;
 }
-
 .cta-buy-small {
   padding: 8px 25% 8px 25%;
   display: inline-block;
   margin: 0% 19%;
 }
-
 .buy-container a:hover {
   background-color: #7a778c;
   color: #fff;
 }
-
 .shipping-box {
   width: auto;
   height: 40px;
@@ -736,7 +637,6 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
 .shipping-box i {
   color: #fff;
 }
-
 .shipping-container {
   background-color: #fff;
   color: black;
@@ -746,40 +646,16 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
   border: 2px solid black;
   box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
 }
-
 .radio-buttons {
   margin-top: 10px;
   margin-left: 10px;
 }
-
 /* Market Page  
 -----------------------------------------------*/
-
 .market {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 2fr auto;
 }
-
-.sell-games {
-  background-color: #fff;
-  width: 700px;
-  height: 375;
-  border: 1px solid black;
-  margin-left: 16%;
-  margin-top: 58px;
-  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
-}
-
-.sold-games {
-  background-color: #fff;
-  width: 400px;
-  height: auto;
-  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
-  margin-top: 59px;
-  margin-right: 200px;
-  padding-bottom: 20px;
-}
-
 .select-box {
   width: 450px;
   height: 35px;
@@ -788,7 +664,6 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
   padding-left: 5px;
   margin-left: 12px;
 }
-
 .select-box-2 {
   width: 450px;
   height: 35px;
@@ -797,35 +672,19 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
   padding-left: 5px;
   margin-left: 12px;
 }
-
-.sell-games h4 {
-  font-family: "Aleo", serif;
-  margin: 10px;
-}
-
-.sell-game p {
-  margin: 10px;
-}
-
-.sold-games h2 {
-  font-family: "Aleo", serif;
-  margin: 10px;
-}
-
 .sold-games img {
-  width: 110px;
-  height: 142px;
+  width: 150px;
+  height: 150px;
+  margin-left: 10px;
+  margin-top: 10px;
 }
-
-.game-sold {
-  margin-left: 15px;
+.sold-games a {
+  margin-left: 10px;
 }
-
 .sold-games hr {
-  width: 320px;
+  width: 90%;
   margin: 10px 40px 10px 40px;
 }
-
 .cta-sell {
   background-color: #1d2540;
   color: #fff;
@@ -835,18 +694,202 @@ This is a sign up/sign in form i made is a placeholder because i cant make what 
   text-decoration: none;
   margin-top: 10px;
 }
-
 .cta-small-sell {
   padding: 8px 30px;
   grid-column: 2;
   min-width: 50px;
 }
-
 .support-sell a:hover {
   background-color: #7a778c;
 }
-
 .support-sell {
   text-align: center;
-  padding-top: 25%;
+  padding-top: 15%;
+}
+/* Cart 
+-----------------------------------------------*/
+.cart-page {
+  margin: 80px 10% 0px 10%;
+  background-color: #fff;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+th {
+  text-align: left;
+  padding: 5px;
+  color: #fff;
+  background-color: #1d2540;
+  font-weight: normal;
+}
+td {
+  padding: 10px 5px;
+}
+td input {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+td a {
+  color: blue;
+  font-size: 12px;
+}
+td img {
+  width: 180px;
+  height: 180px;
+  margin-right: 10px;
+}
+.total-price {
+  display: flex;
+  justify-content: flex-end;
+}
+.total-price table {
+  border-top: 3px solid black;
+  width: 100%;
+  max-width: 550px;
+}
+td:last-child {
+  text-align: right;
+}
+th:last-child {
+  text-align: right;
+}
+.cta-cart,
+.check-button a {
+  background-color: #1d2540;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 15px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.cta-small-cart,
+.check-button a {
+  padding: 8px 30px;
+  grid-column: 2;
+  min-width: 50px;
+}
+.cart-button a:hover {
+  background-color: #7a778c;
+}
+.cart-button {
+  text-align: right;
+  padding-top: 50px;
+  margin-right: 10%;
+}
+/* Checkout Page 
+-----------------------------------------------*/
+.checkout-page {
+  display: grid;
+  grid-template-columns: 2fr;
+}
+.product-details {
+  background-color: #fff;
+  width: 370px;
+  margin: 5% auto;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+  padding: 10px;
+}
+.details li {
+  list-style: none;
+  margin-left: 10%;
+}
+.details p {
+  margin-left: 10%;
+}
+.details hr {
+  width: 80%;
+  margin: auto;
+}
+.product-details h4 {
+  text-decoration: underline;
+  margin-left: 10%;
+  margin-top: 5px;
+}
+.product-details img {
+  margin-left: 10%;
+  margin-top: 10px;
+}
+.wrapper {
+  margin: 5% auto;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  font-family: "Work Sans";
+  background-color: #fff;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+}
+.container {
+  width: 65%;
+  padding: 5% 10%;
+}
+.wrapper input {
+  width: 100%;
+  min-height: 25px;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  font-family: "Work Sans";
+  margin-top: 5px;
+  color: black;
+  border-radius: 4px;
+}
+.wrapper form {
+  width: 100%;
+}
+.wrapper label {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: black;
+}
+.wrapper h3 {
+  font-size: 20px;
+  line-height: 15px;
+  letter-spacing: 1px;
+}
+.name {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+.check-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.check-button a:hover {
+  background-color: #7a778c;
+}
+/* Checkout success
+-----------------------------------------------*/
+/* Stars rating */
+.rating {
+  margin: -20px auto;
+  height: 46px;
+  padding: 0 10px;
+}
+.rating:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rating:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 35px;
+  color: #ccc;
+}
+.rating:not(:checked) > label:before {
+  content: "★ ";
+}
+.rating > input:checked ~ label {
+  color: #ffc700;
 }

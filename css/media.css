@@ -139,6 +139,17 @@
     display: grid;
     width: auto;
   }
+
+  .product-details {
+    width: auto;
+  }
+
+  .wrapper {
+    width: auto;
+  }
+  .product-details img {
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -170,5 +181,50 @@
 
   .tabs {
     width: auto;
+  }
+
+  .cart-info p {
+    display: none;
+  }
+
+  .cart-button {
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 20px;
+  }
+
+  .checkout-page {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .product-details img {
+    margin: auto;
+  }
+
+  .sign-button,
+  .cta {
+    display: inline-block;
+  }
+
+  .market {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .select-box {
+    width: auto;
+    margin: auto;
+  }
+
+  .sold-games hr {
+    width: 80%;
+    margin: auto;
+  }
+
+  .price-cart {
+    display: none;
+  }
+
+  .cart-bar {
+    display: none;
   }
 }

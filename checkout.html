@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="All games, buy new games and pre order new games. all page" />
+    <meta name="description" content="Checkout and pay for your game, enter card details" />
     <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/33d8805278.js"></script>
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/media.css" />
-    <title>Gamehub Used Games</title>
+    <title>Gamehub Checkout</title>
   </head>
   <body>
     <header>
@@ -51,60 +51,88 @@
       </nav>
     </header>
     <main>
-      <h1>Games</h1>
-      <!-- Products -->
-      <section class="games">
-        <!-- Ping Pong Game
+      <h1>Checkout</h1>
+      <!-- Product box
     ------------------------------------------------------->
-        <div class="products">
-          <h3>Ping Pong (PlayBox)</h3>
-          <img src="images/GameHub_covers.jpg" class="product-img" alt="Ping Pong Game" />
-          <p>$39.99</p>
-          <a href="/cart.html" class="cta pre-order">Buy</a>
+      <div class="checkout-page">
+        <div class="product-details">
+          <h4>Ping Pong (Playbox)</h4>
+          <img src="images/GameHub_covers.jpg" alt="Ping Pong Game" /> <br />
+          <div class="details">
+            <p>Details</p>
+            <ol>
+              <li>Product Price: $59.99</li>
+              <li>Discount: $0.00</li>
+              <li>Shipping: $5.99</li>
+              <hr />
+              <li>Summary: $64.98</li>
+            </ol>
+          </div>
         </div>
-        <!-- Super Duper Game
+
+        <!-- Payment & Shipping Box
     ------------------------------------------------------->
-        <div class="products">
-          <h3>SuperDuper (PlayBox)</h3>
-          <img src="images/GameHub_covers2.jpg" class="product-img" alt="Super Duper Game" />
-		  <p>$39.99</p>
-          <a href="/cart.html" class="cta cta-sale cta-small">Buy</a>
+        <div class="wrapper">
+          <div class="container">
+            <form action="">
+              <h3>
+                <i class="fas fa-shipping-fast"></i>
+                Shipping Details
+              </h3>
+              <div class="name">
+                <div>
+                  <label for="f-name">First</label>
+                  <input type="text" name="f-name" />
+                </div>
+                <div>
+                  <label for="l-name">Last</label>
+                  <input type="text" name="l-name" />
+                </div>
+              </div>
+              <div>
+                <label for="name">Street</label>
+                <input type="text" name="address" />
+              </div>
+              <div>
+                <div>
+                  <label for="city">City</label>
+                  <input type="text" name="city" />
+                </div>
+                <div>
+                  <label for="state">State</label>
+                  <input type="text" name="state" />
+                </div>
+                <div>
+                  <label for="zip">Zip</label>
+                  <input type="text" name="zip" />
+                </div>
+                <br />
+              </div>
+              <h3><i class="far fa-credit-card"></i> Payment Information</h3>
+              <div>
+                <label for="card-num">Credit Card No.</label>
+                <input type="text" name="card-num" />
+              </div>
+              <div>
+                <div>
+                  <label for="card-num">Exp</label>
+                  <input type="text" name="expire" />
+                </div>
+                <div>
+                  <label for="card-num">CCV</label>
+                  <input type="text" name="security" />
+                </div>
+              </div>
+              <div class="check-button">
+                <a href="/purchasesuccess.html">Purchase</a>
+                <a href="/cart.html">Back to Cart</a>
+              </div>
+            </form>
+          </div>
         </div>
-        <!-- Black Game
-    ------------------------------------------------------->
-        <div class="products">
-          <h3>Black (PlayBox)</h3>
-          <img src="images/GameHub_covers3.jpg" class="product-img" alt="Black Game" />
-          <p>$39.99</p>
-          <a href="/cart.html" class="cta cta-small">Pre Order</a>
-        </div>
-        <!-- Furious
-    ------------------------------------------------------->
-        <div class="products">
-          <h3>Furious (PlayBox)</h3>
-          <img src="images/GameHub_covers4.jpg" class="product-img" alt="Ping Pong Game" />
-          <p>$39.99</p>
-          <a href="/cart.html" class="cta cta-small">Buy</a>
-        </div>
-        <!-- Assassin
-  ------------------------------------------------------->
-        <div class="products">
-          <h3>Assassin (PlayBox)</h3>
-          <img src="images/GameHub_covers5.jpg" class="product-img" alt="Super Duper Game" />
-          <p>$39.99</p>
-          <a href="/cart.html" class="cta cta-sale cta-small">Buy</a>
-        </div>
-        <!-- Space Wars
-  ------------------------------------------------------->
-        <div class="products">
-          <h3>Space Wars (PlayBox)</h3>
-          <img src="images/GameHub_covers6.jpg" class="product-img" alt="Black Game" />
-          <p>$39.99</p>
-          <a href="/cart.html" class="cta cta-small">Buy</a>
-        </div>
+      </div>
     </main>
-    <!-- Footer
-    ------------------------------------------------------->
+
     <footer>
       <div class="main-footer">
         <section class="main__container">
